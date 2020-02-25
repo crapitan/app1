@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="app1.CameraPage" BackgroundImageSource="backpng.png">
+    <StackLayout>
+
+         <Image x:Name="imageView" HeightRequest="300" WidthRequest="400"/>
+        <Editor x:Name="UploadedUrl" TextColor="Black" HeightRequest="85" Text="Image URL:"/>
+
+        <Frame VerticalOptions="EndAndExpand" Margin="0"
+        Padding="0">
+            <Button x:Name="photoButton" Text="Ta Bild!" Clicked="photoButton_Pressed" VerticalOptions="EndAndExpand" Margin="20"
+            HorizontalOptions="Center" FontSize="Large" 
+            />
+        </Frame>
+
+        <Frame VerticalOptions="End" Margin="0" Padding="0">
+            <Button x:Name="galleryButton" Text="Gå till Galleriet" Clicked="OnPickPhotoButtonClicked" VerticalOptions="End" Margin="20"
+            HorizontalOptions="Center" FontSize="Large"
+            />
+        </Frame>
+    </StackLayout>
+</ContentPage>
