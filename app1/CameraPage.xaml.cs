@@ -1,14 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.IO;
-using Android.Widget;
 using app1.Models;
-using app1.Services;
 using Plugin.Media;
 using Plugin.Media.Abstractions;
 using Xamarin.Forms;
-
 
 namespace app1
 {
